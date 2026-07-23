@@ -742,6 +742,7 @@ nav img{
     display: none;
 
     padding: 10px 0;
+    background-color: #010305;
 
     box-shadow: 0 8px 20px rgba(0,0,0,.4);
     z-index: 1000;
@@ -849,7 +850,7 @@ nav img{
 }
 .art4{
     gap: 1.2vw;
-    margin: 2.2vw;
+    margin-top: 2.2vw;
     margin-bottom: 5vw;
 }
 .box2{
@@ -888,6 +889,179 @@ textarea{
 }
 }
 
+@media (max-width:723px){
+     #mediahead nav{
+        padding:15px;
+        width: 100%;
+    }
+
+    #mediahead img{
+        width:100px;
+    }
+
+    .hamburger span{
+        width:30px;
+        height:3px;
+    }
+
+    #mobile-menu ul{
+        gap:10px;
+        padding:15px 0;
+    }
+
+    #mobile-menu a{
+        font-size:14px;
+    }
+    .sec1{
+        margin-top: 13vw;
+    }
+    .art1{
+        flex-direction: column;
+        gap: 2vw;
+    }
+    #div1{
+        width: 80vw;
+    }
+    .art1 img{
+        width: 80vw;
+    }
+    #div2{
+       display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 1fr 1fr; */
+        height: 30vh;
+        width: 85vw;
+        margin: 7vw;
+    }
+    .box{
+        width: 30vw;
+    }
+    #div0{
+        flex-direction: column;
+        gap: 4vw;
+    }
+    .box1{
+        width: 80vw;
+        height: 43vh;
+    }
+    .box1 img{
+        width: 80vw;
+    }
+    #but4{
+        margin-left: 30vw;
+    }
+    .art2{
+        flex-direction: column;
+        align-items: start;
+        gap: 5vw;
+        margin: 5vh;
+    
+    }
+    .art2 img{
+        width: 90vw;
+        height: 20vh;
+    }
+   .icon4{
+    text-align: left;
+   }
+  #div3{
+    gap: 15vw;
+    margin-left: 3vw;
+  } 
+   #sec4{
+    margin-top: 30vw;
+    margin-bottom: 60vw;
+    flex-direction: column;
+  }
+  #div4 img{
+    width: 90vw;
+    margin: 0 5vw;
+    height: 70vh;
+  }
+  #div5{
+    width: 90vw;
+    margin: 0 5vw;
+  }
+  #art3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10vw;
+  }
+  #art3 div{
+    width: 30vw;
+    height: 18vh;
+  }
+  #art3 img{
+    width: 23vw;
+    height: 12vh;
+    margin-top: 1vw;
+  }
+  #but3{
+    margin-top: 0;
+  }
+  .art4{
+    flex-direction: column;
+    gap: 5vw;
+  }
+  .box2{
+    width: 90vw;
+    height: 45vh;
+    margin: 0 5vw;
+  }
+  .box2 img{
+    width: 90vw;
+  }
+  #div6{
+    margin-top: 30vw;
+  }
+   #div7{
+    flex-direction: column;
+    gap: 0.5vw;
+    width: 90vw;
+    height: 20vh;
+    margin-left: 5vw;
+  }
+  #div7 h3{
+    font-size: 1rem;
+  }
+  #div7 p{
+    font-size: 0.8rem;
+  }
+  #div9{
+    width: 90vw;
+  }
+  .sec6 article{
+    flex-direction: column-reverse;
+    margin: 0 10vw;
+  }
+  #div11{
+    width: 80vw;
+    padding: 10vw;
+    height: 60vh;
+    
+  }
+  #div12{
+    width: 80vw;
+    padding: 2vw;
+  }
+  #div12 input{
+    width: 37vw;
+  }
+  textarea{
+    width: 75vw;
+    margin: 5vw 0;
+  }
+  #div12 button{
+    padding: 4vw 28vw;
+  }
+  .icon6{
+    margin-bottom: 5vw;
+  }
+  #div12 h4{
+    padding: 2vw;
+  }
+
+}
 
  @media (max-width:400px){
 
@@ -1056,3 +1230,4 @@ textarea{
     margin-bottom: 5vw;
   }
 }
+
