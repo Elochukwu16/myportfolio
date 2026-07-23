@@ -300,6 +300,9 @@ nav img{
 .art2 p{
     padding: 10px 0px;
 }
+.art2 a{
+    color: white;
+}
 .icon3{
     font-size: 1.5rem;
     box-shadow: white 0 0 2px;
@@ -406,6 +409,7 @@ nav img{
     background-color: blueviolet;
     color: white;
     border: none;
+    border-radius: 4px;
 }
 #but3 a{
     text-decoration: none;
@@ -439,6 +443,7 @@ nav img{
     box-shadow: blueviolet 0 0 5px;
     border: blueviolet solid;
     padding: 0.5vw 1vw;
+    border-radius: 5px;
     margin-left: 1vw;
 
 }
@@ -505,6 +510,7 @@ nav img{
     background-color: blueviolet;
     color: white;
     padding: 0.7vw 1.5vw;
+    border: none;
     border-radius: 10px;
     font-size: 1.1rem;
 }
@@ -564,6 +570,9 @@ nav img{
     border-radius: 10px;
     padding: 2vw;
 
+ }
+ #div11 a{
+    color: white;
  }
  #div11 h4{
     padding: 1vw 0;
@@ -976,7 +985,7 @@ textarea{
   #div4 img{
     width: 90vw;
     margin: 0 5vw;
-    height: 70vh;
+    height: 65vh;
   }
   #div5{
     width: 90vw;
@@ -1123,6 +1132,7 @@ textarea{
     #but4{
         margin-left: 30vw;
     }
+    
     .art2{
         flex-direction: column;
         align-items: start;
@@ -1154,11 +1164,18 @@ textarea{
   #div5{
     width: 90vw;
     margin: 0 5vw;
+    height: 110vh;
+  }
+  #div5 h2{
+    margin-bottom: 3vw;
+  }
+  #div5 h4{
+    margin: 3vw 0;
   }
   #art3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 10vw;
+    padding-bottom: 3vw;
   }
   #art3 div{
     width: 30vw;
@@ -1169,9 +1186,7 @@ textarea{
     height: 12vh;
     margin-top: 1vw;
   }
-  #but3{
-    margin-top: 0;
-  }
+ 
   .art4{
     flex-direction: column;
     gap: 5vw;
@@ -1181,24 +1196,35 @@ textarea{
     height: 45vh;
     margin: 0 5vw;
   }
+  .box2 button{
+    margin-top: 1vw;
+  }
   .box2 img{
     width: 90vw;
   }
   #div6{
     margin-top: 30vw;
   }
+
   #div7{
     flex-direction: column;
     gap: 0.5vw;
     width: 90vw;
     height: 20vh;
     margin-left: 5vw;
+       margin-top: 20vw;
   }
   #div7 h3{
     font-size: 1rem;
   }
+  .icon5{
+    font-size: 1.6rem;
+  }
   #div7 p{
     font-size: 0.8rem;
+  }
+  #div7 button{
+    margin-top: 1.4rem;
   }
   #div9{
     width: 90vw;
@@ -1226,6 +1252,7 @@ textarea{
   #div12 button{
     padding: 4vw 24vw;
   }
+
   .icon6{
     margin-bottom: 5vw;
   }
