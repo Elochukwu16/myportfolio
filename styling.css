@@ -224,6 +224,7 @@ nav img{
     box-shadow: blueviolet 0 0 5px;
     border: blueviolet solid;
     padding: 0.5vw 1vw;
+    border-radius: 6px;
     margin-left: 1vw;
 
 }
